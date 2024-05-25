@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 function StarRating(){
     const [rating, setRating] = useState(0);
-    const handleStarClick = (nextValue, prevValue, name) => {
+    const handleStarClick = (nextValue: any, prevValue: any, name: any) => {
        setRating(nextValue);
     }
     return (
@@ -18,6 +18,7 @@ function StarRating(){
              starColor={'#ffb400'}
              emptyStarColor={'#ccc'}
              renderStarIcon={() => <i className='iconoir-star-solid'></i>}
+             name='abc'
           />
        </div>
     )
