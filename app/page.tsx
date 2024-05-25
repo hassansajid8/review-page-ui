@@ -1,4 +1,3 @@
-import Image from "next/image";
 import StarRating from "./components/StarRating";
 import ThumbsUpDown from "./components/ThumbsUpDown";
 import Checkbox from "./components/Checkbox";
